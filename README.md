@@ -12,18 +12,18 @@ Installation
 To set up WeatherApp locally, follow these steps:
 
 ### Clone the repository:
-`git clone https://github.com/Maleeq01/weatherApp.git`
+```git clone https://github.com/Maleeq01/weatherApp.git```
 
 ### Navigate to the project directory:
-`cd weatherApp`
+```cd weatherApp```
 
 ### Install the required dependencies:
-`npm install`
+```npm install```
 
 Obtain an API key from a weather service provider (e.g., OpenWeatherMap) and add it to your environment variables.
 
 ### Start the application:
-`npm start`
+```npm start```
 
 ## Usage
 Once the app is running, you can:
