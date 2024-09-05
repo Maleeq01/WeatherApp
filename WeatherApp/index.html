@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Replace with your actual Font Awesome kit URL -->
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfH0ORpdLznlIsrGG2A5xMD-ZKfjivhwVfaA&s"
+      type="image/jpg"
+    />
+    <script
+      src="https://kit.fontawesome.com/72812a9209.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Forecast</h1>
+      <div class="search-box">
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <button onclick="getWeather()"><i class="fas fa-search"></i></button>
+      </div>
+      <div id="weather-info" class="weather-info"></div>
+      <div id="forecast" class="forecast"></div>
+    </div>
+  </body>
+</html>
